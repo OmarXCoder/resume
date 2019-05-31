@@ -1,6 +1,6 @@
 ## Omar Ali Resume Template
 This is my own online resume template. it is built using vuejs, nuxtjs and bootstrap.
-
+![screenshot](static/images/resume.jpg)
 **Note** you can use it as a template for your own resume but after sending me an [email](mailto:omarxcoder@gmail.com) .
 
 ## Build Setup
