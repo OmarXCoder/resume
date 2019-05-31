@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+@import './variables';
+
+// Bootstrap
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/images';
+// @import '~bootstrap/scss/card';
+// @import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/buttons';
+// @import '~bootstrap/scss/custom-forms';
+// @import '~bootstrap/scss/alert';
+@import '~bootstrap/scss/utilities';
+
+// App
+@import './background';
+
+// helpers
+.avataaars-sm {
+    width: 80px;
+    height: 80px;
+}
+
+.avataaars {
+    width: 100px;
+    height: 100px;
+}
+
+.avataaars-lg {
+    width: 140px;
+    height: 140px;
+}
+
+.ff-sofia {
+    font-family: $ff-sofia;
+}
+
+.font-size-sm {
+    font-size: 0.875rem;
+}
+
+.folio-heading {
+    color: $darker-warning;
+    font-family: $ff-sofia;
+}
+
+.folio-text {
+    color: $dark;
+    line-height: 2;
+}
+
+.text-grey {
+    color: #ccc;
+}
+// app
+.section-icon {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+body {
+    padding-top: $navbar-height-md-down;
+    font-family: 'Ubuntu', sans-serif;
+    color: $dark;
+}
+::selection {
+    background-color: $darker-warning;
+    color: $dark;
+}
+.folio-container {
+    padding: $spacer;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.folio-section {
+    margin-bottom: 5rem;
+}
+
+@include media-breakpoint-up(lg) {
+    body {
+        padding-top: 0;
+    }
+    .folio-container {
+        padding: $spacer * 1.5;
+    }
+}
