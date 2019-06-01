@@ -4,7 +4,7 @@
             <section class="folio-section text-center">
                 <img
                     class="avataaars-lg mb-4"
-                    src="images/avataaars.svg"
+                    src="/images/avataaars.svg"
                     alt="avataars"
                 >
                 <h1 class="title folio-heading mb-4">Hi.</h1>

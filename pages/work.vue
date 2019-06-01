@@ -64,7 +64,7 @@ export default {
                     description:
                         "I recently finished working on sphinx which is a vue.js admin dashboard with huge UI kit and pages. It is build using vue, vuex and vuetify framework and will be avaiable for purchase on themeforest.net soon.",
                     previewLink: "http://sphinx.spantags.net/",
-                    previewImg: "images/work/sphinx.jpg"
+                    previewImg: "/images/work/sphinx.jpg"
                 },
                 {
                     title: "Luxury",
@@ -74,7 +74,7 @@ export default {
                     purchaseLink:
                         "https://themeforest.net/item/luxury-responsive-bootstrap-4-admin-template/20881509",
                     previewLink: "http://spantags.net/luxury/",
-                    previewImg: "images/work/luxury.jpg"
+                    previewImg: "/images/work/luxury.jpg"
                 },
                 {
                     title: "Infinity Landing",
@@ -85,7 +85,7 @@ export default {
                         "https://themeforest.net/item/infinity-responsive-web-app-kit/16230780",
                     previewLink:
                         "http://envato.rathemes.com/infinity/landing-page.html",
-                    previewImg: "images/work/infinity-landing-page.jpg"
+                    previewImg: "/images/work/infinity-landing-page.jpg"
                 },
                 {
                     title: "Infinity",
@@ -95,7 +95,7 @@ export default {
                     purchaseLink:
                         "https://themeforest.net/item/infinity-responsive-web-app-kit/16230780",
                     previewLink: "http://envato.rathemes.com/infinity/",
-                    previewImg: "images/work/infinity.jpg"
+                    previewImg: "/images/work/infinity.jpg"
                 }
             ]
         };

@@ -2,7 +2,7 @@
     <div class="folio-prime">
         <div class="prime-inner">
             <div class="prime-avatar rounded-circle">
-                <img src="images/me3.jpg" :alt="name" class="rounded-circle">
+                <img src="/images/me3.jpg" :alt="name" class="rounded-circle">
             </div>
             <div class="prime-heading mt-4">
                 <h3 class="title ff-sofia">{{heading}}</h3>
