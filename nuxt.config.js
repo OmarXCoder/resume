@@ -20,7 +20,11 @@ export default {
                 content: pkg.description
             }
         ],
-        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Ubuntu&display=swap' },
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Sofia&display=swap' }
+        ]
     },
 
     /*
@@ -31,10 +35,7 @@ export default {
     /*
      ** Global CSS
      */
-    css: [
-        '@fortawesome/fontawesome-free/css/all.min.css',
-        '@/assets/scss/main.scss'
-    ],
+    css: ['@fortawesome/fontawesome-free/css/all.min.css', '@/assets/scss/main.scss'],
 
     /*
      ** Plugins to load before mounting the App
